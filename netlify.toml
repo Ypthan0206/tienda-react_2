@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "tienda-productos/dist"
+  publish = "dist"
   base = "tienda-productos"
 
 [[redirects]]
