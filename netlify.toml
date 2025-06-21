@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "/tienda-productos/dist"
+  base = "tienda-productos"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
